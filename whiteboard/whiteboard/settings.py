@@ -4,8 +4,14 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = '(qwnyj6nl-i*$8)c*v@5l1y5f%h274l9!)j_pq6yvykvd^%@dq'
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = []
+
+## Stuff you will need
+
+# Remember the Milk
+RTM_KEY = None
+RTM_SECRET = None
 
 
 # Application definition
