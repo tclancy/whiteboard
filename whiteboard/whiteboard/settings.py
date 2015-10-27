@@ -8,10 +8,10 @@ DEBUG = False
 ALLOWED_HOSTS = []
 
 ## Stuff you will need
-
-# Remember the Milk
 RTM_KEY = None
 RTM_SECRET = None
+GOOGLE_CALENDAR_KEY = None
+GOOGLE_CALENDAR_SECRET = None
 
 
 # Application definition
