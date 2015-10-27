@@ -9,6 +9,11 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-hello
+<h1>Weather</h1>
+<ul>
+{% for f in forecasts %}
+<li>{{ f.day_of_week }}: High {{ f.high }}&#176;, Low {{ f.low }}&#176;</li>
+{% endfor %}
+</ul>
     </body>
 </html>
